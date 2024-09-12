@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Component matches the snapshot 1`] = `
+<div>
+  <div
+    class="d-flex justify-content-center align-items-center vh-100"
+  >
+    <header
+      class="text-center"
+    >
+      <h1
+        class="display-4 text-dark"
+      >
+        GitHub Galaxy Explorer
+      </h1>
+      <p
+        class="lead text-muted"
+      >
+        Explore GitHub profiles and repositories with ease
+      </p>
+      <div
+        class="search container my-5"
+      >
+        <form
+          class="d-flex justify-content-center align-items-center"
+          style="gap: 10px;"
+        >
+          <input
+            class="form-control w-50"
+            placeholder="Search GitHub Users..."
+            type="text"
+            value=""
+          />
+          <button
+            class="btn btn-dark"
+            type="submit"
+          >
+            Search
+          </button>
+        </form>
+      </div>
+    </header>
+  </div>
+</div>
+`;

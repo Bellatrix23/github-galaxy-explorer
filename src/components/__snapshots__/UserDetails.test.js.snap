@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserDetails Component matches the snapshot 1`] = `
+<div>
+  <div
+    class="user-details container text-center my-5"
+  >
+    <img
+      alt="testuser's avatar"
+      class="rounded-circle mb-3"
+      style="width: 150px; height: 150px;"
+    />
+    <h2
+      class="text-dark"
+    >
+      User Name
+    </h2>
+    <p
+      class="text-muted"
+    >
+      This is a test user bio
+    </p>
+    <h3
+      class="text-dark"
+    >
+      Repositories
+    </h3>
+    <ul
+      class="list-unstyled"
+    >
+      <li
+        class="mb-2"
+      >
+        <a
+          class="text-dark"
+          href="/repos/testuser/Test Repo 1"
+        >
+          Test Repo 1
+        </a>
+      </li>
+      <li
+        class="mb-2"
+      >
+        <a
+          class="text-dark"
+          href="/repos/testuser/Test Repo 2"
+        >
+          Test Repo 2
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
